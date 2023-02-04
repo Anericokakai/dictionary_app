@@ -110,7 +110,7 @@ moon.onclick = () => {
   moon.classList.toggle("fa-moon");
 
   if (moon.classList.toggle("fa-sun")) {
-    home.style.backgroundColor = "#03001C";
+    home.style.backgroundColor = "#0d0c0c";
     home.style.transition = ".5s";
     moon.style.color = "white";
     home.style.color = "white";
