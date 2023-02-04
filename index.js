@@ -115,7 +115,7 @@ moon.onclick = () => {
     moon.style.color = "white";
     home.style.color = "white";
     input.style.backgroundColor = "grey";
-    input.style.color = "white";
+    input.style.color = "blue";
   } else {
     home.style.backgroundColor = "white";
     moon.style.color = "rgb(3,0,60)";
