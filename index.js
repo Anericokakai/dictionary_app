@@ -77,22 +77,14 @@ form.onsubmit = (e) => {
         header.innerHTML = innerHeader;
       })
       .catch((err) => {
-                const errormsg=document.querySelector('.errorHandler')
-        if(err){
-          errormsg.innerHTML='invalid word try something else'
-          
-        }else{
-          errormsg.innerHTML=''
-        }
+                
 
         
       });
 
     e.preventDefault();
   } else {
-      const errormsg=document.querySelector('.errorHandler')
-    
-      errormsg.innerHTML='only words are allowed'
+      
     
     
 
